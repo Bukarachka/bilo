@@ -139,6 +139,7 @@
     height: 40px;
     border-radius:28px;
     color: #fff;
+    cursor:pointer;
 }
 
 .Buttons > #GetStarted{
@@ -155,6 +156,16 @@
 .Buttons > #LearnMore{
     border:2px solid #af86e7;
     background-color: #0000;
+}
+
+.Buttons > #LearnMore:hover{
+    border:2px solid #af86e7;
+    background-color: #88888880;
+}
+
+.Buttons > button:active{
+    position:relative;
+	top:1px;
 }
 
 @font-face {
