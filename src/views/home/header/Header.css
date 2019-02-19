@@ -1,0 +1,178 @@
+.HomeHeader{
+    background-image: url('../../../assets/img/home_head_background.png');
+    background-repeat: no-repeat; 
+    background-size: 100%;
+    background-attachment: scroll;
+    clear: both;
+    float: left;
+    width: 100%;
+    height: 100vh;
+}
+
+.Anchors{
+    float: left;
+    width: 45%;
+    margin: 0%;
+    padding-top: 5%;
+    padding-left: 10%;
+}
+
+.Anchors > p{
+    float: left;
+    color: #fff;
+    letter-spacing: 3px;
+    width: 10%;
+    text-transform: uppercase;
+    font-family: Rubik-Medium;
+    font-size: 11px;
+    font-weight: bold;
+    margin: 0%;
+    padding-bottom: 0%;
+    padding-top: 0%;
+    padding-left: 9%;
+    padding-right: 0%;
+}
+
+.DownloadNow{
+    float: left;
+    margin: 0%;
+    padding-top: 4%;
+    padding-left: 2%;
+}
+
+.DownloadNow > button{
+    width: 150px;
+    height: 40px;
+    border-radius:28px;
+    border:1px solid #7732c1;
+    background-color: #7732c1;
+    color: #fff;
+    font-family: Gilroy-Bold;
+    font-size: 11px;
+    font-weight: bold;
+	display:inline-block;
+	cursor:pointer;
+}
+
+.DownloadNow > button:hover{
+    background-color: #6621b0;
+}
+
+.DownloadNow > button:active{
+    position:relative;
+	top:1px;
+}
+
+.MenuBars{
+    float: left;
+    padding-top: 4%;
+    padding-left: 2.5%;
+}
+
+.MenuBars > p{
+    float: left;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #fff;
+}
+
+.MenuBars > #Menu{
+    font-family: Rubik-Medium;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.MenuBars > #Bars{
+    font-family: Font-Awesome-5-Free;
+    font-size: 13px;
+}
+
+.Title{
+    width: fit-content;
+    float: left;
+    padding: 0%;
+    margin-left: 10%;
+    margin-top: 3%;
+    margin-bottom: 0%;
+    margin-right: 0%;
+    font-family: Gilroy-Bold;
+    font-size: 45px;
+    color: #fff;
+}
+
+.About{
+    width: fit-content;
+    padding-top: 18%;
+    padding-left: 19.5%;
+    color: #fff;
+    font-family: Gilroy-Bold;
+    font-size: 37px;
+}
+
+.About > h1{
+    width: fit-content;
+    max-width: 515px;
+    text-align: left;
+    margin: 0%;
+    padding: 0%;
+}
+
+.About > p{
+    width: fit-content;
+    max-width: 420px;
+    margin: 0%;
+    padding: 0%;
+    padding-top: 4%;
+    text-align: left;
+    font-family: Rubik-Regular;
+    font-size: 14px;
+}
+
+.Buttons{
+    width: 22%;
+    padding-top: 2.5%;
+    padding-left: 19.5%;
+}
+
+.Buttons > button{
+    width: 45%;
+    height: 40px;
+    border-radius:28px;
+    color: #fff;
+}
+
+.Buttons > #GetStarted{
+    margin-right: 10%;
+    border:2px solid #ff9d60;
+    background-color: #ff9d60;
+}
+
+.Buttons > #GetStarted:hover{
+    border:2px solid #ee8c49;
+    background-color: #ee8c49;
+}
+
+.Buttons > #LearnMore{
+    border:2px solid #af86e7;
+    background-color: #0000;
+}
+
+@font-face {
+    font-family: Gilroy-Bold;
+    src: url(../../../assets/font/Gilroy-Bold.ttf);
+}
+
+@font-face {
+    font-family: Rubik-Medium;
+    src: url(../../../assets/font/Rubik-Medium.ttf);
+}
+
+@font-face {
+    font-family: Rubik-Regular;
+    src: url(../../../assets/font/Rubik-Regular.ttf);
+}
+
+@font-face {
+    font-family: Font-Awesome-5-Free;
+    src: url(../../../assets/font/Font-Awesome-5-Free.otf);
+}
