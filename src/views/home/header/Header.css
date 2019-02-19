@@ -140,6 +140,8 @@
     border-radius:28px;
     color: #fff;
     cursor:pointer;
+    font-family: Gilroy-Bold;
+    font-size: 12px;
 }
 
 .Buttons > #GetStarted{
