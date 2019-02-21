@@ -1,0 +1,139 @@
+.HomeFeatures{
+    color: #000;
+    overflow: auto;
+    height: fit-content;
+    padding-top: 0%;
+    padding-bottom: 3%;
+    padding-left: 20%;
+    padding-right: 12%;
+    text-align: left;
+}
+
+.HomeFeatures > .About{
+    padding-top: 8%;
+    width: 30%;
+    float: left;
+    padding-right: 5%;
+}
+
+.HomeFeatures > .About a{
+    font-family: Rubik-Medium;
+    color: #f99e65;
+}
+
+.HomeFeatures > .About h1{
+    font-family: Gilroy-Bold;
+    font-size: 40px;
+}
+
+.HomeFeatures > .About p{
+    font-family: Rubik-Regular;
+    font-size: 16px;
+}
+
+.HomeFeatures > .About button{
+    width: 55%;
+    height: 40px;
+    border-radius: 28px;
+    border: 2px solid #ff9d60;
+    background-color: #ff9d60;
+    color: #fff;
+    cursor: pointer;
+    font-family: Gilroy-Bold;
+    font-size: 12px;
+    box-shadow: 0 4px 8px 0 rgba(255, 157, 96, 0.5), 0 8px 30px 0 rgba(255, 157, 96, 0.5);
+}
+
+.HomeFeatures > .About button:hover{
+    border:2px solid #ee8c49;
+    background-color: #ee8c49;
+}
+
+.HomeFeatures > .About button:active{
+    position:relative;
+	top:1px;
+}
+
+.HomeFeatures > .Features{
+    padding-top: 8%;
+    width: 50%;
+    float: left;
+}
+
+.HomeFeatures > .Features h2{
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+}
+
+.HomeFeatures > .Features a{
+    font-family: Rubik-Medium;
+    font-size: 14px;
+    color: gray;
+}
+
+.HomeFeatures > .Features a:hover{
+    color: #f99e65;
+}
+
+.HomeFeatures > .Features p{
+    font-family: Rubik-Regular;
+    font-size: 14;
+}
+
+.HomeFeatures ul{
+    columns: 2;
+    padding: 0%;
+    list-style: none;
+}
+
+.HomeFeatures li{
+    padding-bottom: 20%;
+    padding-right: 10%;
+}
+
+@media all and (max-width: 1920px) {
+
+}
+
+@media all and (max-width: 1366px) {
+    
+}
+
+@media all and (max-width: 1280px) {
+    
+}
+
+@media all and (max-width: 1024px) {
+    
+}
+
+@media all and (max-width: 980px) {
+    
+}
+
+@media all and (max-width: 768px) {
+    
+}
+
+@media all and (max-width: 480px) {
+    
+}
+
+@media all and (max-width: 360px) {
+    
+}
+
+@font-face {
+    font-family: Gilroy-Bold;
+    src: url(../../../assets/font/Gilroy-Bold.ttf);
+}
+
+@font-face {
+    font-family: Rubik-Medium;
+    src: url(../../../assets/font/Rubik-Medium.ttf);
+}
+
+@font-face {
+    font-family: Rubik-Regular;
+    src: url(../../../assets/font/Rubik-Regular.ttf);
+}

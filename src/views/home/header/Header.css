@@ -4,12 +4,12 @@
     background-size: 100%;
     background-attachment: scroll;
     clear: both;
-    float: left;
     width: 100%;
     height: 100vh;
+    min-height: fit-content;
 }
 
-.Anchors{
+.HomeHeader > .Anchors{
     float: left;
     width: 45%;
     margin: 0%;
@@ -17,7 +17,7 @@
     padding-left: 10%;
 }
 
-.Anchors > p{
+.HomeHeader > .Anchors > p{
     float: left;
     color: #fff;
     letter-spacing: 3px;
@@ -33,14 +33,14 @@
     padding-right: 0%;
 }
 
-.DownloadNow{
+.HomeHeader > .DownloadNow{
     float: left;
     margin: 0%;
     padding-top: 4%;
     padding-left: 2%;
 }
 
-.DownloadNow > button{
+.HomeHeader > .DownloadNow > button{
     width: 150px;
     height: 40px;
     border-radius:28px;
@@ -54,40 +54,40 @@
 	cursor:pointer;
 }
 
-.DownloadNow > button:hover{
+.HomeHeader > .DownloadNow > button:hover{
     background-color: #6621b0;
 }
 
-.DownloadNow > button:active{
+.HomeHeader > .DownloadNow > button:active{
     position:relative;
 	top:1px;
 }
 
-.MenuBars{
+.HomeHeader > .MenuBars{
     float: left;
     padding-top: 4%;
     padding-left: 2.5%;
 }
 
-.MenuBars > p{
+.HomeHeader > .MenuBars > p{
     float: left;
     text-transform: uppercase;
     letter-spacing: 3px;
     color: #fff;
 }
 
-.MenuBars > #Menu{
+.HomeHeader > .MenuBars > #Menu{
     font-family: Rubik-Medium;
     font-size: 12px;
     font-weight: bold;
 }
 
-.MenuBars > #Bars{
+.HomeHeader > .MenuBars > #Bars{
     font-family: Font-Awesome-5-Free;
     font-size: 13px;
 }
 
-.Title{
+.HomeHeader > .Title{
     width: fit-content;
     float: left;
     padding: 0%;
@@ -100,16 +100,16 @@
     color: #fff;
 }
 
-.About{
+.HomeHeader > .About{
     width: fit-content;
     padding-top: 18%;
-    padding-left: 19.5%;
+    padding-left: 20%;
     color: #fff;
     font-family: Gilroy-Bold;
     font-size: 37px;
 }
 
-.About > h1{
+.HomeHeader > .About > h1{
     width: fit-content;
     max-width: 515px;
     text-align: left;
@@ -117,7 +117,7 @@
     padding: 0%;
 }
 
-.About > p{
+.HomeHeader > .About > p{
     width: fit-content;
     max-width: 420px;
     margin: 0%;
@@ -128,13 +128,13 @@
     font-size: 14px;
 }
 
-.Buttons{
+.HomeHeader > .Buttons{
     width: 22%;
     padding-top: 2.5%;
-    padding-left: 19.5%;
+    padding-left: 20%;
 }
 
-.Buttons > button{
+.HomeHeader > .Buttons > button{
     width: 45%;
     height: 40px;
     border-radius:28px;
@@ -144,28 +144,28 @@
     font-size: 12px;
 }
 
-.Buttons > #GetStarted{
+.HomeHeader > .Buttons > #GetStarted{
     margin-right: 10%;
     border:2px solid #ff9d60;
     background-color: #ff9d60;
 }
 
-.Buttons > #GetStarted:hover{
+.HomeHeader > .Buttons > #GetStarted:hover{
     border:2px solid #ee8c49;
     background-color: #ee8c49;
 }
 
-.Buttons > #LearnMore{
+.HomeHeader > .Buttons > #LearnMore{
     border:2px solid #af86e7;
     background-color: #0000;
 }
 
-.Buttons > #LearnMore:hover{
+.HomeHeader > .Buttons > #LearnMore:hover{
     border:2px solid #af86e7;
     background-color: #88888880;
 }
 
-.Buttons > button:active{
+.HomeHeader > .Buttons > button:active{
     position:relative;
 	top:1px;
 }
