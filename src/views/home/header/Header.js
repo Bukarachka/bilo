@@ -2,16 +2,24 @@ import React from 'react';
 
 import './Header.css';
 
+const items = [
+    {className: "item", href: "", name: "About"},
+    {className: "item", href: "", name: "Features"},
+    {className: "item", href: "", name: "Services"},
+    {className: "item", href: "", name: "Pricing"},
+    {className: "item", href: "", name: "Download"},
+]
+
+const mapItems = (items) => {
+    return items.map((item) => <p key={item.name} className={item.className} >{item.name}</p>)
+}
+
 class Header extends React.PureComponent{
     render(){
         return<div className="HomeHeader">
             <p className="Title">Bilo.</p>
             <div className="Anchors">
-                <p>About</p>
-                <p>Features</p>
-                <p>Services</p>
-                <p>Pricing</p>
-                <p>Download</p>
+                {mapItems(items)}
             </div>
             <div className="DownloadNow">
                 <button>Download Now</button>
