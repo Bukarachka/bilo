@@ -1,8 +1,8 @@
 .HomeHeader{
     background-image: url('../../../assets/img/home_head_background.png');
     background-repeat: no-repeat; 
-    background-size: 100%;
-    background-attachment: scroll;
+    background-size: 100% 100vh;
+    background-attachment: fixed;
     clear: both;
     width: 100%;
     height: 100vh;

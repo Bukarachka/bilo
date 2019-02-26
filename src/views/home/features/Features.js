@@ -16,7 +16,7 @@ const items = [
 
 const mapItems = (items) => {
     return items.map((item) => <li>
-        <img src={item.image}/>
+        <img src={item.image} alt=""/>
         <h2>{item.title}</h2>
         <p>{item.text}</p>
         <a href={item.href}>Read More</a>
@@ -27,7 +27,7 @@ class Features extends React.PureComponent{
     render(){
         return<div className="HomeFeatures">
             <div className="About">
-                <a href="">Get started from today</a>
+                <a href="/">Get started from today</a>
                 <h1>Easily Intrigate Business Plan</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 <p>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.</p>
