@@ -1,0 +1,30 @@
+.HomeDownload{
+    background-color: #fff7ee;
+    float: left;
+    padding-left: 20%;
+    padding-right: 15%;
+}
+
+.HomeDownload > .Image{
+    padding-top: 10%;
+    padding-bottom: 10%;
+    float: left;
+    width: 35%;
+}
+
+.HomeDownload > .Content{
+    float: left;
+    width: 55%;
+    padding-left: 10%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    text-align: left;
+}
+
+.HomeDownload > .Image img{
+    width: 100%;
+}
+
+.HomeDownload .Buttons{
+    text-align: center;
+}
