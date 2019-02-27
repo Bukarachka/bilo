@@ -15,7 +15,7 @@ const items = [
 ]
 
 const mapItems = (items) => {
-    return items.map((item) => <li>
+    return items.map((item) => <li key={item.title}>
         <img src={item.image} alt=""/>
         <h2>{item.title}</h2>
         <p>{item.text}</p>
