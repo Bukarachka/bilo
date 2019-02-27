@@ -39,11 +39,6 @@
     font-size: 16px;
 }
 
-@font-face {
-    font-family: Rubik-Regular;
-    src: url(../../../assets/font/Rubik-Regular.ttf);
-}
-
 .HomeDownload > .Image img{
     width: 100%;
 }
@@ -136,4 +131,9 @@
 @font-face {
     font-family: Gilroy-Bold;
     src: url(../../../assets/font/Gilroy-Bold.ttf);
+}
+
+@font-face {
+    font-family: Rubik-Regular;
+    src: url(../../../assets/font/Rubik-Regular.ttf);
 }

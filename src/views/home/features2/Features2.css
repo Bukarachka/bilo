@@ -1,0 +1,87 @@
+.HomeFeatures2{
+    float: left;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.HomeFeatures2 .Header{
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 15%;
+}
+
+.HomeFeatures2 .Header > a{
+    font-family: Rubik-Medium;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #f99e65;
+}
+
+.HomeFeatures2 .Header > h1{
+    font-family: Gilroy-Bold;
+    font-size: 50px;
+    margin: 0%;
+    padding: 2% 25%;
+    width: 50%;
+}
+
+.HomeFeatures2 .Container{
+    width: 100%;
+    overflow: hidden;
+}
+
+.HomeFeatures2 .Features{
+    position: relative;
+    float: left;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.HomeFeatures2 .Features ul{
+    float: left;
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+}
+
+.HomeFeatures2 .Features li{
+    float: left;
+    width: 280px;
+    padding: 10px;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+.HomeFeatures2 .Features li > div{
+    border: 1px solid rgb(189, 189, 189);
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+.HomeFeatures2 .Features li > p{
+    padding-left: 10%;
+    padding-right: 10%; 
+}
+
+.HomeFeatures2 .Item:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 8px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.HomeFeatures2 .Upper{
+    position: relative;
+    top: -15px;
+}
+
+.HomeFeatures2 .Lower{
+    position: relative;
+    top: 15px;
+}
+
+@font-face {
+    font-family: Rubik-Medium;
+    src: url(../../../assets/font/Rubik-Medium.ttf);
+}
