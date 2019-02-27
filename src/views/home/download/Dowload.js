@@ -27,8 +27,10 @@ class Download extends React.PureComponent{
                 </div>
                 <div className="Quote">
                     <img src={quoteImage} alt="" />
-                    <h2>2M Happy Users</h2>
-                    <a href="/">Read More</a>
+                    <div>
+                        <h2>2M Happy Users</h2>
+                        <a href="/">Read More</a>
+                    </div>
                 </div>
             </div>
         </div>

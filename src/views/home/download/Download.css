@@ -21,10 +21,119 @@
     text-align: left;
 }
 
+.HomeDownload .Content > a{
+    font-family: Rubik-Medium;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 14px;
+    color: #f99e65;
+}
+
+.HomeDownload .Content > h1{
+    font-family: Gilroy-Bold;
+    font-size: 45px;
+}
+
+.HomeDownload .Content > p{
+    font-family: Rubik-Regular;
+    font-size: 16px;
+}
+
+@font-face {
+    font-family: Rubik-Regular;
+    src: url(../../../assets/font/Rubik-Regular.ttf);
+}
+
 .HomeDownload > .Image img{
     width: 100%;
 }
 
 .HomeDownload .Buttons{
-    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 7%;
+    text-align: left;
+    border-bottom: 3px solid #ff9d602a;
+}
+
+.HomeDownload .Buttons button > p, .HomeDownload .Buttons button > h2{
+    padding: 0%;
+    margin: 0%;
+}
+
+.HomeDownload .Buttons button > p{
+    font-family: Rubik-Medium;
+    font-size: 12px;
+}
+
+.HomeDownload .Buttons button > h2{
+    font-family: Gilroy-Bold;
+    font-size: 20px;
+}
+
+.HomeDownload .Buttons button{
+    width: 40%;
+    height: 66px;
+    text-align: left;
+    padding-left: 10%;
+    margin-right: 5%;
+    margin-left: 5%;
+    border-radius:33px;
+    color: #000;
+    cursor:pointer;
+    font-family: Gilroy-Bold;
+    font-size: 12px;
+    border:2px solid #ff9d6036;
+    background-color: #0000;
+}
+
+.HomeDownload .Buttons button:hover{
+    color:#fff;
+    border:2px solid #ff9d60;
+    background-color: #ff9d60;
+    box-shadow: 0 4px 8px 0 rgba(255, 157, 96, 0.5), 0 8px 30px 0 rgba(255, 157, 96, 0.5);
+}
+
+.HomeDownload .Buttons button:active{
+    position:relative;
+	top:1px;
+}
+
+.HomeDownload .Quote{
+    float: left;
+    padding-top: 5%;
+}
+
+.HomeDownload .Quote h2{
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+    padding: 0%;
+    padding-bottom: 5%;
+    margin: 0%;
+}
+
+.HomeDownload .Quote a{
+    font-family: Rubik-Medium;
+    font-size: 14px;
+    color: #ff9d60;
+    text-decoration: none;
+}
+
+.HomeDownload .Quote img, .HomeDownload .Quote div{
+    float: left;
+    padding: 0%;
+    margin: 0%;
+}
+
+.HomeDownload .Quote > div{
+    padding-top: 30px;
+}
+
+@font-face {
+    font-family: Rubik-Medium;
+    src: url(../../../assets/font/Rubik-Medium.ttf);
+}
+
+@font-face {
+    font-family: Gilroy-Bold;
+    src: url(../../../assets/font/Gilroy-Bold.ttf);
 }
