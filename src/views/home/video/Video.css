@@ -1,0 +1,74 @@
+.HomeVideo{
+    float: left;
+    background-image: url('../../../assets/img/home_video_background.png');
+    background-repeat: no-repeat; 
+    background-size: 100%;
+    background-attachment: scroll;
+    padding-left: 20%;
+    padding-right: 20%;
+    width: 65%;
+    height: fit-content;
+    padding-top: 7%;
+}
+
+.HomeVideo > div{
+    padding: 0 10%;
+}
+
+.HomeVideo a{
+    font-family: Rubik-Medium;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #f99e65;
+}
+
+.HomeVideo h1{
+    font-family: Gilroy-Bold;
+    font-size: 50px;
+    padding: 3% 10%;
+    margin: 0%;
+}
+
+.HomeVideo .Video{
+    width: 100%;
+    padding-top: 2%;
+    position: relative;
+}
+
+.HomeVideo .Video > img{
+    width: 100%;
+}
+
+.HomeVideo .Video > .Overlay{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 200px;
+    background-image: url('../../../assets/img/home_video_play.png');
+    background-repeat: no-repeat; 
+    background-size: 100%;
+    font-family: Gilroy-Bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 14px;
+}
+
+.HomeVideo .Video > .Overlay > p{
+    background: linear-gradient(to bottom right, #c482f0, #4a19b1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-top: 32%;
+}
+
+@font-face {
+    font-family: Rubik-Medium;
+    src: url(../../../assets/font/Rubik-Medium.ttf);
+}
+
+@font-face {
+    font-family: Gilroy-Bold;
+    src: url(../../../assets/font/Gilroy-Bold.ttf);
+}
