@@ -45,8 +45,8 @@
     top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 200px;
-    height: 200px;
+    width: 180px;
+    height: 180px;
     background-image: url('../../../assets/img/home_video_play.png');
     background-repeat: no-repeat; 
     background-size: 100%;
@@ -58,8 +58,8 @@
 
 .HomeVideo .Video > .Overlay > p{
     background: linear-gradient(to bottom right, #c482f0, #4a19b1);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
     padding-top: 32%;
 }
 
