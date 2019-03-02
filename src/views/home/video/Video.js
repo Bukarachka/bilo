@@ -3,7 +3,6 @@ import React from 'react';
 import './Video.css';
 
 import placeholder from '../../../assets/img/home_video_placeholder.png';
-import playImage from '../../../assets/img/home_video_play.png';
 
 class Video extends React.PureComponent{
     render(){

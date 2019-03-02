@@ -1,0 +1,96 @@
+.HomePricing{
+    background-image: url('../../../assets/img/home_pricing_background.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    float: left;
+    padding-left: 20%;
+    padding-right: 15%;
+    width: 65%;
+    min-height: fit-content;
+    height: 100vh;
+}
+
+.HomePricing .Head{
+    float: left;
+    width: 100%;
+}
+
+.HomePricing .Head > label{
+    float: left;
+    margin-top: 5%;
+}
+
+.HomePricing .Head > div{
+    float: left;
+    text-align: left;
+    width: 30%;
+    padding-right: 20%;
+}
+
+.HomePricing .Switch {
+    position: relative;
+    display: inline-block;
+    width: 300px;
+    height: 60px;
+    margin-left: calc(50% - 304px);
+    border: 2px solid #ddd;
+    border-radius: 60px;
+}
+  
+.HomePricing .Switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+  
+.HomePricing .Slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: transparent;
+    border-radius: 60px;
+    transition: .4s;
+}
+
+.HomePricing .Switch > div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    float: left;
+}
+
+.HomePricing .Switch > div > p{
+    width: 50%;
+    float: left;
+}
+  
+.HomePricing .Slider:before {
+    position: absolute;
+    content: "";
+    height: 60px;
+    width: 50%;
+    left: 0px;
+    bottom: 0px;
+    background-color: #ff9d60;
+    box-shadow: 0 4px 8px 0 rgba(255, 157, 96, 0.7), 0 8px 60px 0 rgba(255, 157, 96, 0.7);
+    border-radius: 30px;
+    transition: .4s;
+}
+  
+.HomePricing input:checked + .Slider:before {
+    transform: translateX(100%);
+}
+
+.HomePricing .White{
+    color: #fff;
+}
+
+.HomePricing .Balck{
+    color: #000;
+}
