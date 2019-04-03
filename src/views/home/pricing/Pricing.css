@@ -9,6 +9,7 @@
     width: 65%;
     min-height: fit-content;
     height: 100vh;
+    font-family: Gilroy-Bold;
 }
 
 .HomePricing .Head{
@@ -19,6 +20,7 @@
 .HomePricing .Head > label{
     float: left;
     margin-top: 5%;
+    font-family: Rubik-Medium;
 }
 
 .HomePricing .Head > div{
@@ -93,4 +95,102 @@
 
 .HomePricing .Balck{
     color: #000;
+}
+
+.HomePricing .Content{
+    height: 100%;
+    float: left;
+    width: 100%;
+}
+
+.HomePricing .Content > ul{
+    float: left;
+    padding: 0%;
+    margin: 0%;
+    width: 100%;
+    height: inherit;
+    height: fit-content;
+    list-style: none;
+}
+
+.HomePricing .Content > ul > li{
+    float: left;
+    width: 30%;
+    margin: 1.5%;
+    margin-top: 10%;
+    background-color: white;
+    box-shadow: 0px 0px 29px 0px #ff9d6048;
+}
+
+.HomePricing .Content > ul > .Best{
+    margin-top: 5%;
+    position: relative;
+}
+
+.HomePricing .Content > ul > .Best > img{
+    position: absolute;
+    top: 0;
+    right: 10px;
+}
+
+.HomePricing .Content > ul > li > h2{
+    margin: 0%;
+    padding-top: 15%;
+    padding-bottom: 0;
+    font-size: 40px;
+}
+
+.HomePricing .Content > ul > li > h1{
+    margin: 0%;
+    padding: 7%;
+    font-size: 70px;
+    color: #ff9d60;
+}
+
+.HomePricing .Content > ul > li > h1 > span{
+    font-size: 16px;
+    color: #6870a0;
+}
+
+.HomePricing .Content > ul > li > button{
+    height: 50px;
+    padding: 0 10%;
+    margin: 10%;
+    margin-bottom: 15%;
+    border-radius: 28px;
+    border: 1px solid #acacac;
+    background-color: #00000000;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.HomePricing .Content > ul > li > button:hover{
+    border: 2px solid #ff9d60;
+    background-color: #ff9d60;
+    color: white;
+}
+
+.HomePricing .Content > ul > li > div > p{
+    font-family: Gilroy-Medium;
+    font-size: 16px;
+}
+
+.HomePricing .Content > ul > li > div > .Highlighted{
+    color: #ff9d60;
+    text-decoration: underline;
+}
+
+@font-face {
+    font-family: Gilroy-Bold;
+    src: url(../../../assets/font/Gilroy-Bold.ttf);
+}
+
+@font-face {
+    font-family: Gilroy-Medium;
+    src: url(../../../assets/font/Gilroy-Medium.ttf);
+}
+
+@font-face {
+    font-family: Rubik-Medium;
+    src: url(../../../assets/font/Rubik-Medium.ttf);
 }

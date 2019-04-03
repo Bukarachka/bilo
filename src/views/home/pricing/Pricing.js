@@ -2,9 +2,66 @@ import React from 'react';
 
 import './Pricing.css';
 
-const items = [
-    {className:"item", bset:false, title:"", price:{}, elements:[]}
+import bestImage from '../../../assets/img/home_pricing_best.png';
+
+const monthlyItems = [
+    {className:"item", best:false, title:"Regular", price:"$45", elements:[
+        {highlighted:false, text:"Unlimited Results Per Search"},
+        {highlighted:true, text:"Unlimited Saved Search"},
+        {highlighted:false, text:"Unlimited Invites"},
+        {highlighted:false, text:"Unlimited Campaigns"}
+    ]},
+    {className:"item", best:true, title:"Advanced", price:"$99", elements:[
+        {highlighted:false, text:"Unlimited Results Per Search"},
+        {highlighted:true, text:"Unlimited Saved Search"},
+        {highlighted:false, text:"Unlimited Invites"},
+        {highlighted:false, text:"Unlimited Campaigns"},
+        {highlighted:false, text:"Unlimited Messages"},
+        {highlighted:false, text:"Unlimited Hosting Plans"},
+        {highlighted:false, text:"Unlimited Call & Sms"}
+    ]},
+    {className:"item", best:false, title:"Team", price:"$378", elements:[
+        {highlighted:false, text:"Unlimited Results Per Search"},
+        {highlighted:true, text:"Unlimited Saved Search"},
+        {highlighted:false, text:"Unlimited Invites"},
+        {highlighted:false, text:"Unlimited Campaigns"}
+    ]}
 ]
+const yearlyItems = [
+    {className:"item", best:false, title:"Regular Yearly", price:"$45", elements:[
+        {highlighted:false, text:"Unlimited Results Per Search"},
+        {highlighted:true, text:"Unlimited Saved Search"},
+        {highlighted:false, text:"Unlimited Invites"},
+        {highlighted:false, text:"Unlimited Campaigns"}
+    ]},
+    {className:"item", best:true, title:"Advanced Yearly", price:"$99", elements:[
+        {highlighted:false, text:"Unlimited Results Per Search"},
+        {highlighted:true, text:"Unlimited Saved Search"},
+        {highlighted:false, text:"Unlimited Invites"},
+        {highlighted:false, text:"Unlimited Campaigns"},
+        {highlighted:false, text:"Unlimited Messages"},
+        {highlighted:false, text:"Unlimited Hosting Plans"},
+        {highlighted:false, text:"Unlimited Call & Sms"}
+    ]},
+    {className:"item", best:false, title:"Team Yearly", price:"$378", elements:[
+        {highlighted:false, text:"Unlimited Results Per Search"},
+        {highlighted:true, text:"Unlimited Saved Search"},
+        {highlighted:false, text:"Unlimited Invites"},
+        {highlighted:false, text:"Unlimited Campaigns"}
+    ]}
+]
+
+const mapItems = (items) => {
+    return <ul >
+        {items.map((item)=><li className={item.best?"Best":""} key={item.title}>
+            <h2>{item.title}</h2>
+            {item.best?<img src={bestImage}/>:null}
+            <h1>{item.price}<span>/mo</span></h1>
+            <div>{item.elements.map((element, index)=><p key={index + 70} className={element.highlighted ? "Highlighted" : ""}>{element.text}</p>)}</div>
+            <button>Purchase Now</button>
+        </li>)}
+    </ul>
+}
 
 class Pricing extends React.PureComponent{
     constructor(props){
@@ -21,6 +78,14 @@ class Pricing extends React.PureComponent{
     }
 
     render(){
+        let items = [];
+        if(this.state.checkboxChecked){
+            items = monthlyItems;
+        }
+        else {
+            items = yearlyItems;
+        }
+
         return<div className="HomePricing">
             <div className="Head">
                 <div>
@@ -37,7 +102,7 @@ class Pricing extends React.PureComponent{
                 </label>
             </div>
             <div className="Content">
-                content {this.state.checkboxChecked + ''}
+                {mapItems(items)}
             </div>
         </div>
     }
